@@ -41,7 +41,7 @@
 *Openings*
 
 **Giuoco Piano**- Included in [castling](http://manojkr.com/demos/chess-animations/castling.html)<br>
-**French Opening (Steinitz variation)** - Included in [en-passant](http://manojkr.com/demos/chess-animations/en-passant.html)
+**French Opening (Steinitz variation)** - Included in [en-passant](http://manojkr.com/demos/chess-animations/en-passant.html)<br>
 **Caro-kann defence** - Included in [Paul Vs. Edward](http://manojkr.com/demos/chess-animations/paulvsedward.html)
 
 
@@ -127,9 +127,7 @@
 
 ### Info:
 
-- Chessboard squares are created using [viewport](https://css-tricks.com/viewport-sized-typography/) units.
-
-- Chess icon set by [Wikimedia commons SVG Chess pieces](https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces)
+- Chessboard squares are created using [viewport](https://css-tricks.com/viewport-sized-typography/) units. Chess icon set by [Wikimedia commons SVG Chess pieces](https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces)
 
 - Movement classes could be done using `left` and `right` along with `position: relative` or maybe `margin` properties as well, but `transform: translate*()` properties work well because of GPU performance as stated by an article here by Paul Irish: [Why Moving Elements With Translate() Is Better Than Pos:abs Top/left](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/). You can also check the properties that trigger a reflow here: [CSS triggers](http://csstriggers.com)
 
@@ -139,18 +137,18 @@
 
 ### Drawbacks:
 
-The viewport units are not yet supported completely in [IE, Edge and some mobile browsers](http://caniuse.com/#feat=viewport-units).
+- The viewport units are not yet supported completely in [IE, Edge and some mobile browsers](http://caniuse.com/#feat=viewport-units).
 
-There is currently no way to sequence CSS animations so that the second animation continues with the properties set after completion of the first animation.
+- There is currently no way to sequence CSS animations so that the second animation continues with the properties set after completion of the first animation.
 
-[Reference](http://www.w3.org/TR/css3-animations/#animation-name-property)
+  [Reference](http://www.w3.org/TR/css3-animations/#animation-name-property)
 
-> The `animation-name` property defines a list of animations that apply.
-> If multiple animations are
-> attempting to modify the same property, then the animation closest to
-> the end of the list of names wins.
+  > The `animation-name` property defines a list of animations that apply.
+  > If multiple animations are
+  > attempting to modify the same property, then the animation closest to
+  > the end of the list of names wins.
 
-This is also demonstrated in the question here: [Extend the final state of the first animation for translated element](http://stackoverflow.com/questions/32224802/extend-the-final-state-of-the-first-animation-for-translated-element)
+  This is also demonstrated in the question here: [Extend the final state of the first animation for translated element](http://stackoverflow.com/questions/32224802/extend-the-final-state-of-the-first-animation-for-translated-element)
 
 Found a way to overcome this drawback, have some suggestions to improve this or submit your own demos? Send me a pull request please. 
 
