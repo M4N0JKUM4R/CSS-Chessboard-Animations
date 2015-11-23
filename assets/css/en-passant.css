@@ -15,7 +15,7 @@
     animation-duration: 1s, 1s, 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-delay: 0s, 6s, 7s;
+    animation-delay: 0s, 4s, 7s;
 }
 /* 1. .. e6 */
 
@@ -33,5 +33,5 @@
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-delay: 4s, 8s;
+    animation-delay: 6s, 8s;
 }
