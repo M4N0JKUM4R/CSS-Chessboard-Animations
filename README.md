@@ -19,7 +19,7 @@
 
 ###### Shortest Checkmates:
 
-[**Scholar's mate**](http://manojkr.com/demos/chess-animations/scholars-mate.html)
+[**Scholar's mate**](http://codepen.io/Manojkr/full/KdYOdb/)
 
 ###### Chess Basics:
 
