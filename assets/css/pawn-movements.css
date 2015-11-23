@@ -1,0 +1,39 @@
+@keyframes move-left-up-1 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: -5vw;
+        left: -5vw;
+    }
+}
+
+.e3,
+.e4,
+.e5,
+.e6,
+.e7,
+.e8 {
+    animation-name: highlight-square;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+/* e4 and exd5 */
+
+.e2 > img {
+    animation-name: move-up-2, move-left-up-1, remove-piece;
+    animation-duration: 1s;
+    animation-delay: 3s, 7s, 8s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+/* .. d5 */
+
+.d7 > img {
+    animation-name: move-down-2, remove-piece;
+    animation-duration: 1s, 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 5s, 7s;
+}

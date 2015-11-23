@@ -1,0 +1,109 @@
+/* Overridden custom hack to allow pawn to move one square more */
+
+@keyframes move-right-down-1 {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    100% {
+        top: 5vw;
+        right: -5vw;
+    }
+}
+
+@keyframes move-up-right-short {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    100% {
+        top: -5vw;
+        right: -10vw;
+    }
+}
+/* 1. e4 */
+
+.e2 > img {
+    animation-name: move-up-2, remove-piece;
+    animation-duration: 1s, 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0s, 10s;
+}
+/* 1. .. c6 */
+
+.c7 > img {
+    animation-name: move-down-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+/* 2. Nc3 and 4. Nxe4*/
+
+.b1 > img {
+    animation-name: move-up-right-long, move-up-right-short, remove-piece;
+    animation-duration: 1s, 1s, 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 4s, 12s, 18s;
+}
+/* 2. .. d5 and 3. .. dxe4 */
+
+.d7 > img {
+    animation-name: move-down-2, move-right-down-1, remove-piece;
+    animation-duration: 1s, 1s, 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 6s, 10s, 12s;
+}
+/* 3. Nf3 */
+
+.g1 > img {
+    animation-name: move-up-left-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+/* 4. .. Nf6 */
+
+.g8 > img {
+    animation-name: move-down-left-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 14s;
+}
+/* 5. Qe2 */
+
+.d1 > img {
+    animation-name: move-right-up-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 16s;
+}
+/* 5. .. Nbd7 */
+
+.b8 > img {
+    animation-name: move-down-right-short;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+
+.e1 {
+    animation: winner 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 22s;
+    animation-timing-function: ease;
+}
+
+.e8 {
+    animation: defeated 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 22s;
+    animation-timing-function: ease;
+}

@@ -1,0 +1,139 @@
+/* 1. e4 */
+
+.e2 > img {
+    animation-name: move-up-2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+/* 1. .. e5 */
+
+.e7 > img {
+    animation-name: move-down-2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+/* 2. Nf3 */
+
+.g1 > img {
+    animation-name: move-up-left-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+/* 2. .. Nc6 */
+
+.b8 > img {
+    animation-name: move-down-right-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+/* 3. Bc4 */
+
+.f1 > img {
+    animation-name: move-left-up-3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+/* 3. .. Bc5 */
+
+.f8 > img {
+    animation-name: move-left-down-3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+/* King side castle */
+/* 4. O-O */
+
+.e1 > img {
+    animation-name: move-right-2;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+
+.h1 > img {
+    animation-name: move-left-2;
+    animation-duration: 2s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+}
+/* 4. .. d6 */
+
+.d7 > img {
+    animation-name: move-down-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 16s;
+}
+/* 5. d3 */
+
+.d2 > img {
+    animation-name: move-up-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+/* 5. .. Bg4 */
+
+.c8 > img {
+    animation-name: move-right-down-4;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 20s;
+}
+/* 6. Nc3 */
+
+.b1 > img {
+    animation-name: move-up-right-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 22s;
+}
+/* 6. .. Qd7 */
+
+.d8 > img {
+    animation-name: move-down-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 24s;
+}
+/* 7. a3 */
+
+.a2 > img {
+    animation-name: move-up-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 26s;
+}
+/* Queen side castle */
+/* 7. .. O-O-O */
+
+.e8 > img {
+    animation-name: move-left-2;
+    animation-duration: 2s;
+    animation-delay: 28s;
+    animation-fill-mode: forwards;
+}
+
+.a8 > img {
+    animation-name: move-right-3;
+    animation-duration: 2s;
+    animation-delay: 29s;
+    animation-fill-mode: forwards;
+}

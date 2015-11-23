@@ -1,0 +1,115 @@
+/* Overridden custom hack to align Queen to the h file */
+
+@keyframes move-left-up-2 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: -10vw;
+        left: -10vw;
+    }
+}
+/* 1. e4 */
+
+.e2 > img {
+    animation-name: move-up-2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+/* 1. .. e5 */
+
+.e7 > img {
+    animation-name: move-down-2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+/* 2. Bc4 */
+
+.f1 > img {
+    animation-name: move-left-up-3;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+/* Alert on f7 square */
+
+.f7 {
+    animation-name: attacked-square, attacked-square;
+    animation-duration: 3s, 3s;
+    animation-timing-function: ease;
+    animation-delay: 5s, 12s;
+}
+/* Highlight path towards attacked f7 square */
+
+.c4,
+.d5,
+.e6 {
+    animation-name: highlight-square;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+}
+/* 2. .. Nc6 */
+
+.b8 > img {
+    animation-name: move-down-right-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+/* 3. Qh5 and chain 4. Qxf7# */
+
+.d1 > img {
+    animation-name: move-right-up-4, move-left-up-2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 11s, 18s;
+    animation-fill-mode: forwards, forwards;
+}
+/* Highlight path towards attacked f7 square */
+
+.h5,
+.g6 {
+    animation-name: highlight-square;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 12s;
+}
+/* 3. .. Nf6?? */
+
+.g8 > img {
+    animation-name: move-down-left-long;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+}
+/* 4. Qxf7# */
+
+.f7 > img {
+    animation-name: remove-piece;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+}
+
+.e1 {
+    animation: winner 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 20s;
+    animation-timing-function: ease;
+}
+
+.e8 {
+    animation: defeated 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 20s;
+    animation-timing-function: ease;
+}

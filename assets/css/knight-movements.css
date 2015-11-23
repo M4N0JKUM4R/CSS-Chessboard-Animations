@@ -1,0 +1,20 @@
+.c5,
+.d6,
+.f6,
+.g5,
+.g3,
+.f2,
+.d2,
+.c3 {
+    animation-name: highlight-square;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.e4 > img {
+    animation-name: move-up-left-short, remove-piece, move-up-left-long, remove-piece, move-up-right-long, remove-piece, move-up-right-short, remove-piece, move-down-right-short, remove-piece, move-down-right-long, remove-piece, move-down-left-short, remove-piece, move-down-left-long, remove-piece;
+    animation-duration: 2s, 1s, 2s, 1s, 2s, 1s, 2s, 1s, 2s, 1s, 2s, 1s, 2s, 1s, 2s, 1s;
+    animation-timing-function: ease;
+    animation-delay: 2s, 4s, 5s, 6.2s, 8s, 9.2s, 11s, 12.2s, 14s, 15.2s, 17s, 18.2s, 20s, 21.2s, 23s, 24.2s;
+}
