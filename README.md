@@ -1,6 +1,11 @@
 # CSS-Chessboard-Animations
 
-*This is just a fun experiment with CSS3 to check its usage and limitations. Alternatively, It can be easily achieved using JS to avoid the sequencing trouble and animation delay calculation. You can also use Animation libraries like GSAP's [Timelinemax](https://greensock.com/timelinemax)*
+<p align="center">
+  <img src="http://i.stack.imgur.com/mlwPz.jpg">
+</p>
+ 
+
+*A fun experiment with CSS3 to check its usage and limitations. Alternatively, It can be easily achieved using JS to avoid the sequencing trouble and animation delay calculation. You can also use Animation libraries like GSAP's [Timelinemax](https://greensock.com/timelinemax)*
 
 
 ----------
