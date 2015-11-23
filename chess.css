@@ -759,7 +759,7 @@
 
 @keyframes highlight-square {
     0% {
-        border: 5px solid gold; /* Multiple values does not work for non webkit browsers */
+        border: 5px solid gold; /* Multiple values do not work for non webkit browsers */
     }
     
     100% {
