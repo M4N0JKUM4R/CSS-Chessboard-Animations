@@ -748,8 +748,14 @@
     }
 }
 
+/* Multiple values does not work for non webkit browsers */
+
 @keyframes highlight-square {
-    from, to {
+    0% {
+        border: 5px solid gold;
+    }
+    
+    100% {
         border: 5px solid gold;
     }
 }
