@@ -285,6 +285,7 @@
         transform: translateX(-35vw);
     }
 }
+
 /* Move Right */
 
 @keyframes move-right-1 {
@@ -350,6 +351,8 @@
     }
 }
 
+/* Move left and upwards diagonally */
+
 @keyframes move-left-up-1 {
     0% {
         transform: translate(0);
@@ -412,6 +415,8 @@
         transform: translate(-35vw, -35vw);
     }
 }
+
+/* Move right and upwards diagonally */
 
 @keyframes move-right-up-1 {
     0% {
@@ -476,6 +481,8 @@
     }
 }
 
+/* Move right and downwards diagonally */
+
 @keyframes move-right-down-1 {
     0% {
         transform: translate(0);
@@ -538,6 +545,8 @@
         transform: translate(35vw, 35vw);
     }
 }
+
+/* Move left and downwards diagonally */
 
 @keyframes move-left-down-1 {
     0% {
@@ -748,11 +757,9 @@
     }
 }
 
-/* Multiple values does not work for non webkit browsers */
-
 @keyframes highlight-square {
     0% {
-        border: 5px solid gold;
+        border: 5px solid gold; /* Multiple values does not work for non webkit browsers */
     }
     
     100% {
