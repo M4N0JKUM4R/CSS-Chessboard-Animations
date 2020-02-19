@@ -10,44 +10,6 @@
 
 ----------
 
-
-#### Demos that could be achieved so far:
-
-###### Short games:
-
-[**Paul Keres Vs Edward Arlamowski**](http://manojkr.com/demos/chess-animations/paulvsedward.html)
-
-###### Shortest Checkmates:
-
-[**Scholar's mate**](http://codepen.io/Manojkr/full/KdYOdb/)
-
-###### Chess Basics:
-
-*Piece movements:*
-
-[**King**](http://manojkr.com/demos/chess-animations/king-movements.html)<br>
-[**Queen**](http://manojkr.com/demos/chess-animations/queen-movements.html)<br>
-[**Rook**](http://manojkr.com/demos/chess-animations/rook-movements.html)<br>
-[**Bishop**](http://manojkr.com/demos/chess-animations/bishop-movements.html)<br>
-[**Knight**](http://manojkr.com/demos/chess-animations/knight-movements.html)<br>
-[**Pawn**](http://manojkr.com/demos/chess-animations/pawn-movements.html)
-
-*Others:*
-
-[**Castling**](http://manojkr.com/demos/chess-animations/castling.html)<br>
-[**En passant**](http://manojkr.com/demos/chess-animations/en-passant.html)<br>
-**Pawn-Promotion** - Included in [**Pawn movements**](http://manojkr.com/demos/chess-animations/pawn-movements.html)
-
-*Openings*
-
-**Giuoco Piano**- Included in [castling](http://manojkr.com/demos/chess-animations/castling.html)<br>
-**French Opening (Steinitz variation)** - Included in [en-passant](http://manojkr.com/demos/chess-animations/en-passant.html)<br>
-**Caro-kann defence** - Included in [Paul Vs. Edward](http://manojkr.com/demos/chess-animations/paulvsedward.html)
-
-
-----------
-
-
 #### Movement classes: 
 
 ###### King, Queen, Rook, Pawn movement
