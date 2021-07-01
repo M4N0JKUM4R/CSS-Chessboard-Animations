@@ -24,8 +24,6 @@
 
 [Pawn Movements](https://m4n0jkum4r.github.io/CSS-Chessboard-Animations/demos/pawn-movements.html)
 
-[En-passant](https://m4n0jkum4r.github.io/CSS-Chessboard-Animations/demos/en-passant.html)
-
 #### Movement classes: 
 
 ###### King, Queen, Rook, Pawn movement
