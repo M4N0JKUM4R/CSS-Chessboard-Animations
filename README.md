@@ -10,6 +10,13 @@
 
 ----------
 
+#### Demos
+
+[Castling](https://m4n0jkum4r.github.io/CSS-Chessboard-Animations/demos/castling.html)
+[Scholar's mate](https://m4n0jkum4r.github.io/CSS-Chessboard-Animations/demos/scholars-mate.html)
+[Knight Movements](https://m4n0jkum4r.github.io/CSS-Chessboard-Animations/demos/knight-movements.html)
+[Bishop Movements](https://m4n0jkum4r.github.io/CSS-Chessboard-Animations/demos/bishop-movements.html)
+
 #### Movement classes: 
 
 ###### King, Queen, Rook, Pawn movement
