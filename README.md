@@ -105,6 +105,8 @@ Some of the other files in the demo folder need reworking.
 
 ### Info:
 
+- This repository is 6+ years old and CSS has come a long way from there. I am sure there are so many better ways to implement this by now. Looking forward to your pull requests to completely destroy my obsolete code :P
+
 - Chessboard squares are created using [viewport](https://css-tricks.com/viewport-sized-typography/) units. Chess icon set by [Wikimedia commons SVG Chess pieces](https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces)
 
 - Movement classes could be done using `left` and `right` along with `position: relative` or maybe `margin` properties as well, but `transform: translate*()` properties work well because of GPU performance as stated by an article here by Paul Irish: [Why Moving Elements With Translate() Is Better Than Pos:abs Top/left](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/). You can also check the properties that trigger a reflow here: [CSS triggers](http://csstriggers.com)
